@@ -60,5 +60,5 @@ function updateProducts() {
 catSelect.onchange = updateProducts;
 sortSelect.onchange = updateProducts;
 
-// initial render (THIS is what shows products)
 updateProducts();
+
